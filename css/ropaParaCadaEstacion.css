@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0px;
+	padding:0px;
+	}
+img {
+	border:0px;
+	}
+a {
+	border:none;
+	text-decoration:none;
+	}
+body {
+	background:#CCC;
+	font-size:12px;
+    font-family: 'lemonade_icgbold';
+	color:#FFF;
+	overflow:hidden;
+	}
+section, footer {
+	position:relative;
+	width:800px;
+	margin:auto;
+	}
+header {
+	width:100%;
+	height:60px;
+	text-align:center;
+	}
+section {
+	height:600px;
+	background:url(../img-ropaParaCadaEstacion/bg_inicio.jpg) no-repeat top;
+	z-index:9999999999999999;
+	}
+footer {
+	height:auto;
+	bottom:0;
+	background:#0572AD;
+	}
+#incio {
+	position:absolute;
+	left:50%;
+	top:50%;
+	width:524px;
+	height:356px;
+	margin-left:-262px;
+	margin-top:-178px;
+	background:url(../img-ropaParaCadaEstacion/instrucciones.png);
+	z-index:999999999999999 !important;
+	}
+#incio td a {
+	font-size:1.5em;
+	color:#FFF;
+	}
+#incio td a:hover {
+	color:#CCC;
+	}
+#incio p {
+	color:#999;
+	text-align:center;
+	width:200px;
+	font-size:2em;
+	}
+#fondo {
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-color:rgba( 0, 0, 0, 0.5 );
+	}
+#btn-1 {
+	position:absolute;
+	width:100%;
+	height:58px;
+	bottom:0px;
+	border-radius:20px;
+	-o-	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	background:url(../img-ropaParaCadaEstacion/boton.png) repeat-x center top;
+	text-align:center;
+	}
+#btn-2 {
+	margin-left:250px;
+	text-align:center;
+	width:300px;
+	height:58px;
+	border-radius:20px;
+	-o-	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	background:url(../img-ropaParaCadaEstacion/boton.png) repeat-x center top;
+    font-family: 'dimboregular';
+	line-height:50px;
+	font-size:2em;
+	}
+#contenedorRespuesta div {
+	margin-top:70px;
+	float:left;
+	text-align:center;
+	color:#989898;
+}
+#contenedorPregunta {
+	position:absolute;
+	top:500px;
+	left:30px;
+}
+#contenedorPregunta div {
+	width:60px;
+	height:100px;
+	font-size:2em;
+	float:left;
+	text-align:center;
+	z-index:9999999999999999;
+}
+#contenedorRespuesta div.hovered {
+	border:2px dashed #FF6600;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-ms-border-radius:15px;
+	-o-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+#RespOK {
+	position:absolute;
+	top:260px;
+	width:145px;
+	height:190px;
+	padding:5px;
+	text-align:center;
+	font-size:1em;
+	background:url(../img-ropaParaCadaEstacion/fondo-preg-OK.png) no-repeat;
+	}
+#RespOK p {
+	margin-top:50px;
+	}
+#fallaste, #muyBien {
+	position:absolute;
+	margin-left:-81px;
+	margin-top:-82px;
+	left:50%;
+	top:50%;
+	width:162px;
+	height:164px;
+	z-index:99999999999999999999999999999999999999999999999999999 !important;
+	}
+#finalExitoso {
+  	position:absolute;
+	width:200px;
+	height:200px;
+	margin-left:-100px;
+    font-family: 'dimboregular';
+	line-height:50px;
+	font-size:2em;
+	left:50%;
+	bottom:20px;
+	background:url(../img-ropaParaCadaEstacion/perfecto.png) no-repeat center top;
+	z-index:99999999999999999999999999999999999999999999999999999 !important;
+}
+@font-face {
+    font-family: 'lemonade_icgbold';
+    src: url('../font/lemonade_icg_bold.eot');
+    src: url('../font/lemonade_icg_bold.eot?#iefix') format('embedded-opentype'),
+         url('../font/lemonade_icg_bold.woff') format('woff'),
+         url('../font/lemonade_icg_bold.ttf') format('truetype'),
+         url('../font/lemonade_icg_bold.svg#lemonade_icgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+           }
+@font-face {
+    font-family: 'dimboregular';
+    src: url('../font/dimbo_regular.eot');
+    src: url('../font/dimbo_regular.eot?#iefix') format('embedded-opentype'),
+         url('../font/dimbo_regular.woff') format('woff'),
+         url('../font/dimbo_regular.ttf') format('truetype'),
+         url('../font/dimbo_regular.svg#dimboregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#resp1, 
+#resp2,
+#resp3, 
+#resp4, 
+#resp5,
+#resp6,
+#resp7,
+#resp8,
+#resp9,
+#resp10,
+#resp11,
+#resp12  {
+	position:absolute;
+    width:60px;
+	height:60px;
+	/*border:1px #0000FF solid;*/
+	}
+/* -- ------------------------------------------------------------------------------- ESTACIONES -- */
+/* -- -------------------------------------------------------------- VERANO --- */
+/* -- CHANCLETA -- */
+#resp2  {
+	top:353px;
+	left:65px;
+    width:65px;
+	height:25px;
+	}
+/* -- REMERA SHORT -- */
+#resp4  {
+	top:238px;
+	left:55px;
+    width:88px;
+	height:70px;
+	}
+/* -- LENTES -- */
+#resp6  {
+	top:180px;
+	left:43px;
+    width:112px;
+	height:50px;
+	}
+/* -- -------------------------------------------------------------- OTOÑO --- */
+/* -- BUZO -- */
+#resp8  {
+	top:204px;
+	left:233px;
+    width:146px;
+	height:120px;
+	}
+#card8 img  {
+	}
+/* -- POLLERA -- */
+#resp7  {
+	top:300px;
+	left:255px;
+    width:83px;
+	height:43px;
+	}
+#card7 img  {
+	}
+/* -- ZAPATITOS -- */
+#resp5  {
+	top:325px;
+	left:265px;
+    width:58px;
+	height:52px;
+	}
+/* -- -------------------------------------------------------------- INVIERNO --- */
+/* -- GORRO Y BUFANDA  -- */
+#resp9  {
+	top:82px;
+	left:430px;
+	width:130px;
+	height:150px;
+	z-index:99999999999999 !important;
+	}
+#card9 img  {
+
+	}
+/* -- BUZO -  -- */
+#resp10  {
+	top:235px;
+	left:448px;
+	width:104px;
+	height:84px;
+	}
+/* -- PANTALON ZAPATOS -- */
+#resp3  {
+	top:300px;
+	left:448px;
+    width:104px;
+	height:99px;
+	}
+/* -- -------------------------------------------------------------- PRIMAVERA --- */
+/* -- VESTIDITO -- */
+#resp1  {
+	top:247px;
+	left:657px;
+	width:79px;
+	height:92px;
+	}
+/* -- FLORES -- */
+#resp12  {
+	top:215px;
+	left:735px;
+	width:72px;
+	height:90px;
+	}
+/* -- ZAPATITOS -- */
+#resp11  {
+	top:345px;
+	left:659px;
+	width:70px;
+	height:35px;
+	}

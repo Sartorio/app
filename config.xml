@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.recursosDigitales"
+    version   = "1.0.0">
+
+	<name>RECURSOS DIGITALES</name>
+	<icon src="images/BOTON-RRDD.png" gap:plataform="android" gap:density="ldpi" />
+	<gap:splash src="images/intro-foto.jpg" gap:plataform="android" gap:density="ldpi" />
+	<gap:splash src="images/intro-foto.jpg" gap:plataform="android" gap:density="mdpi" />
+	<gap:splash src="images/intro-foto.jpg" gap:plataform="android" gap:density="hdpi" />
+	<gap:splash src="images/intro-foto.jpg" gap:plataform="android" gap:density="xhdpi" />
+
+	<description>
+	 SECCION RECURSOS DIGITALES
+	</description>
+	
+	<preference name="permissions" value="none" />
+	
+	<author href="http://www.kapelusznorma.com.ar/" email="pablo.sartorio@carvajl.com">
+	Innovacion
+	</author>
+
+</widget>
